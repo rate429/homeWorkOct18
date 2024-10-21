@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.about-me {
+    @apply bg-[#c01818]
+}
+h1 {
+    @apply text-green-500 font-sans; 
+
+}
+h2 {
+    @apply text-red-600 font-serif;
+}
+
+h3 {
+    @apply text-purple-600 font-mono;
+}
+
+section {
+    @apply bg-[rgb(73,72,57)]
+}
